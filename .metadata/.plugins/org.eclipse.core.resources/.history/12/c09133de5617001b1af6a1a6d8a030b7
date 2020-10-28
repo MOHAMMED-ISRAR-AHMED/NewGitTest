@@ -1,0 +1,9 @@
+package maps;
+
+import java.util.*;
+
+public class sortedmap {
+public static void main(String[] args) {
+	SortedMap<String,Integer> sm=new sortedmap<>();
+}
+}

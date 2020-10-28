@@ -1,0 +1,45 @@
+package set;
+import java.util.*;
+
+public class hashset {
+public static void main(String[] args) {
+
+	Set<String> s=new HashSet<String>();
+	s.add("city");
+	s.add("state");
+	s.add("city");  // does not allows to store duplicates
+	s.add("district");
+	System.out.println(s);
+	
+	Set<Integer> hsetNumbers = new HashSet<Integer>();
+	 
+	hsetNumbers.add(13);
+	hsetNumbers.add(42);
+	hsetNumbers.add(45);
+	hsetNumbers.add(12);
+	 
+	for(Integer number : hsetNumbers){
+	    System.out.println(number);
+	}
+	
+	// Sorting HashSet using List 
+    List<String> list = new ArrayList<String>(s); 
+    Collections.sort(list); 
+
+    // Print the sorted elements of the HashSet 
+    System.out.println("HashSet elements "
+                       + "in sorted order "
+                       + "using List: "
+                       + list); 
+    
+    // Sorting HashSet using TreeSet 
+    TreeSet<String> treeSet = new TreeSet<String>(s); 
+
+    // Print the sorted elements of the HashSet 
+    System.out.println("HashSet elements "
+                       + "in sorted order "
+                       + "using TreeSet: "
+                       + treeSet); 
+
+}
+}

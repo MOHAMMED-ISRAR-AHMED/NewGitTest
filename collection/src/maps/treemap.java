@@ -1,0 +1,14 @@
+package maps;
+import java.util.*;
+
+public class treemap {
+public static void main(String[] args) {
+TreeMap<Integer,String> t=new TreeMap<>();
+t.put(3, "uae");
+t.put(1, "emirates");
+t.put(2, "muscat");
+t.put(2, "muscat"); //doesnt allows duplicate
+//t.put(2, "mucat"); // but if we mismatch the values it will take the update value
+System.out.println(t);
+}
+}

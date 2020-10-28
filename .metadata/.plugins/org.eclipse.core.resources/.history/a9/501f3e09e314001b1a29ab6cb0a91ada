@@ -1,0 +1,9 @@
+package collection;
+
+public class linklist {
+	public static void main(String[] args) {
+		linklist<String> l1=new linkedlist<String>();
+		
+	}
+
+}

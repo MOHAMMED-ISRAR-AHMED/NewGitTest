@@ -1,0 +1,30 @@
+package maps;
+import java.util.*;
+import java.util.Map.Entry;
+
+public class hashmap {
+public static void main(String[] args) {
+	HashMap<Integer,String> hp=new HashMap<Integer,String>(); // new generic style
+	hp.put(4, "vishal"); 
+	hp.put(2, "vaibhav");
+    hp.put(1, "sachin"); 
+    hp.put(3, "akash"); 
+    hp.put(5,"vaibhav");
+    hp.put(5,"vaibhav");
+    System.out.println(hp+"\n");
+
+    //Elements can traverse in any order  
+    for (Entry<Integer, String> e : hp.entrySet()) { 
+        System.out.println(e.getKey() + " "+ e.getValue()+"\n"); 
+    }
+        HashMap<String, Integer> numbers = new HashMap<String,Integer>();
+        numbers.put("First", 1);
+        numbers.put("Second", 2);
+        System.out.println("Original HashMap: " + numbers+"\n");
+
+        // Using merge() Method
+        numbers.merge("First", 4, (oldValue, newValue) -> oldValue + newValue);  //supports from jdk 1.8 onwards
+        System.out.println("New HashMap: " + numbers+"\n");
+
+}
+}

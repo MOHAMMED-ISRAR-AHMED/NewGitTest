@@ -1,0 +1,21 @@
+package set;
+import java.util.*;
+
+public class hashset {
+public static void main(String[] args) {
+
+	Set<String> s=new HashSet<String>();
+	s.add("city");
+	s.add("state");
+	s.add("city");  // does not allows to store duplicates
+	s.add("district");
+	System.out.println(s);
+	Collections.sort(s);  
+	  //Traversing list through the for-each loop  
+	  for(String cities:s)  
+	    System.out.println(cities);  
+	      
+	 System.out.println("after Sorted cities are...\n");
+	
+}
+}

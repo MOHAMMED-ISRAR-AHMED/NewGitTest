@@ -1,0 +1,63 @@
+package practice;
+
+class  hi {
+	public void show()) { 
+		for(int i=0;i<=5;i++) {
+			System.out.println("hi");
+			try { Thread.sleep(1000);}
+			catch (Exception e) {
+				// TODO: handle exception
+			}}}}
+
+class hello {
+	public void show() { 
+		for(int i=0;i<=5;i++) {
+			System.out.println("hello");
+			try { Thread.sleep(1000);}
+			catch (Exception e) {
+				// TODO: handle exception
+			}
+			}}}
+
+class demo1{
+	public static void main(String[] args) {
+		hi h1=new hi();
+		hello h2=new hello();
+		
+		h1.show();
+		h2.show();
+	
+	}
+}
+
+/*
+
+class  hi extends Thread {
+	public void run() { 
+		for(int i=0;i<=5;i++) {
+			System.out.println("hi");
+			try { Thread.sleep(1000);}
+			catch (Exception e) {
+				// TODO: handle exception
+			}}}}
+
+class hello extends Thread {
+	public void run() { 
+		for(int i=0;i<=5;i++) {
+			System.out.println("hello");
+			try { Thread.sleep(1000);}
+			catch (Exception e) {
+				// TODO: handle exception
+			}
+			}}}
+
+class demo1{
+	public static void main(String[] args) {
+		hi h1=new hi();
+		hello h2=new hello();
+		
+		h1.start();
+		h2.start();
+	
+	}
+} */

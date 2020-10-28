@@ -1,0 +1,15 @@
+package maps;
+import java.util.*;
+
+public class hashmap {
+public static void main(String[] args) {
+	Map<Integer,String> hp=new HashMap<Integer,String>();
+	hp.put(10, "vishal"); 
+    hp.put(30, "sachin"); 
+    hp.put(20, "vaibhav"); 
+
+    for (Map.Entry<String, Integer> e : hp.entrySet()) 
+        System.out.println(e.getKey() + " "
+                           + e.getValue()); 
+} 
+}

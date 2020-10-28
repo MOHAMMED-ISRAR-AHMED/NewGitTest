@@ -1,0 +1,11 @@
+package maps;
+
+import java.util.*;
+
+public class navigablemap {
+public static void main(String[] args) {
+	NavigableMap<String,Integer> nm=new TreeMap<String,Integer>();
+	
+	
+}
+}

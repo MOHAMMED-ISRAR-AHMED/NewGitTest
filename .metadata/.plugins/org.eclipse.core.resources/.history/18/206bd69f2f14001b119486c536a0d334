@@ -1,0 +1,26 @@
+package practice;
+class demo3 extends Thread 
+{ 
+	public void run() 
+	{ 
+		System.out.println("Thread Running..."); 
+	} 
+
+	public static void main(String[]args) 
+	{ 
+		demo3 p1 = new demo3(); 
+		p1.start();
+		System.out.println("max thread priority : " + p1.MAX_PRIORITY); 
+		System.out.println("min thread priority : " + p1.MIN_PRIORITY);  
+		System.out.println("normal thread priority : " + p1.NORM_PRIORITY); 
+		demo3 p2 = new demo3();
+		// Starting thread
+		p2.start();
+		// Setting priority
+		p2.setPriority(2);
+		// Getting priority
+		int p = p2.getPriority();
+		
+		System.out.println("thread priority : " + p);  
+			} 
+}

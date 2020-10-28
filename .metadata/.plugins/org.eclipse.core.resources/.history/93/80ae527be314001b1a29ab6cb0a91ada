@@ -1,0 +1,13 @@
+package collection;
+
+import java.io.*;
+import java.util.LinkedList;
+import java.util.List;
+
+public class linklist {
+	public static void main(String[] args) {
+		List<String> l1=new LinkedList<String>();
+		l1.add("delhi");
+	}
+
+}

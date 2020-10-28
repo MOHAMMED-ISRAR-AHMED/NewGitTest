@@ -1,0 +1,15 @@
+package set;
+import java.util.*;
+
+public class treeset {
+public static void main(String[] args) {
+	Set<String> ts=new TreeSet<String>();
+	// using add() 
+    ts.add("India"); 
+    ts.add("Australia"); 
+    ts.add("South Africa");
+    ts.add("Australia");
+    ts.add("Dubai");
+System.out.println(ts+"\n");
+}
+}

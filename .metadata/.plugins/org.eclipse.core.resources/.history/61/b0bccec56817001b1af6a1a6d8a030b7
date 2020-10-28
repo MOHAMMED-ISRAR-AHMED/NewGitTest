@@ -1,0 +1,13 @@
+package fileoperations;
+
+import java.io.*;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.io.IOException;
+
+public class demo {
+public static void main(String[] args) {
+
+	FileInputStream fis=new FileInputStream("input.txt");
+}
+}

@@ -1,0 +1,11 @@
+package maps;
+
+import java.util.*;
+
+public class sortedmap {
+public static void main(String[] args) {
+	
+	// SortedMap implementation by TreeMap class
+	SortedMap<String,Integer> sm=new TreeMap<>();
+}
+}

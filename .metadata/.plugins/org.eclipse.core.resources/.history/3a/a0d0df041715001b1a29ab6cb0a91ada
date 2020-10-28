@@ -1,0 +1,20 @@
+package maps;
+import java.util.*;
+import java.util.Map.Entry;
+
+public class hashmap {
+public static void main(String[] args) {
+	HashMap<Integer,String> hp=new HashMap<Integer,String>(); // new generic style
+	hp.put(4, "vishal"); 
+	hp.put(2, "vaibhav");
+    hp.put(1, "sachin"); 
+    hp.put(3, "akash"); 
+    System.out.println(hp+"\n");
+
+    //Elements can traverse in any order  
+    for (Entry<Integer, String> e : hp.entrySet()) { 
+        System.out.println(e.getKey() + " "
+                           + e.getValue()); 
+} 
+}
+}

@@ -1,0 +1,24 @@
+package maps;
+
+import java.util.*;
+
+public class sortedmap {
+public static void main(String[] args) {
+	
+	// SortedMap implementation by TreeMap class
+	SortedMap<String,Integer> sm=new TreeMap<>();
+	
+	sm.put("zurich", 2);
+	sm.put("kuwait", 4);
+	sm.put("london", 3);
+	sm.put("dubai", 1);
+	
+	System.out.println("maintains the insertion order in ascending order\n"+sm+"\n");
+	// Access the first key of the map
+    System.out.println("First Key: " + sm.firstKey()+"\n");
+
+    // Access the last key of the map
+    System.out.println("Last Key: " + sm.lastKey()+"\n");
+
+}
+}

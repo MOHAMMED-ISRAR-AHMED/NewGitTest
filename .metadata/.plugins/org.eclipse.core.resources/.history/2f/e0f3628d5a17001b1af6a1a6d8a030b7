@@ -1,0 +1,13 @@
+package maps;
+
+import java.util.*;
+
+public class navigablemap {
+public static void main(String[] args) {
+	NavigableMap<Integer,String> nm=new TreeMap<>();
+	nm.put(3, "uae");
+	nm.put(1, "emirates");
+	nm.put(3, "muscat");
+	System.out.println(nm);
+}
+}

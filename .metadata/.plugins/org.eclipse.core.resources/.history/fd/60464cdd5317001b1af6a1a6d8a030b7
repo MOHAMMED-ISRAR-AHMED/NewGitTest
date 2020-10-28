@@ -1,0 +1,10 @@
+package maps;
+
+import java.util.*;
+
+public class linkedhashmap {
+public static void main(String[] args) {
+	LinkedHashMap<String,Integer> lhm=new LinkedHashMap<>();
+	
+}
+}

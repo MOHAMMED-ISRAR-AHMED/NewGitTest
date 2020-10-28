@@ -1,0 +1,31 @@
+package set;
+import java.util.*;
+
+public class linkedhashset {
+public static void main(String[] args) {
+	Set<String> s=new LinkedHashSet<String>();
+	
+	// Adding elements into the LinkedHashSet 
+    // using add() 
+    s.add("India"); 
+    s.add("Australia"); 
+    s.add("South Africa"); 
+
+    Set<Integer> setnumbers = new HashSet<Integer>();
+	 
+	setnumbers.add(13);
+	setnumbers.add(42);
+	setnumbers.add(45);
+	setnumbers.add(12);
+	 
+	for(Integer number : setnumbers){  // this how it the insertion order
+	    System.out.println(number);
+	}
+    // Adding the duplicate 
+    // element 
+    s.add("India"); 
+
+    // Displaying the LinkedHashSet 
+    System.out.println(s); 
+}
+}

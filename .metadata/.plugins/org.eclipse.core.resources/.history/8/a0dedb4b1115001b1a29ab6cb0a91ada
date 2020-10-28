@@ -1,0 +1,18 @@
+package maps;
+import java.util.*;
+import java.util.Map.Entry;
+
+public class hashmap {
+public static void main(String[] args) {
+	Map<Integer,String> hp=new HashMap<Integer,String>(); // new generic style
+	hp.put(10, "vishal"); 
+	hp.put(20, "vaibha");
+    hp.put(30, "sachin"); 
+    hp.put(20, "vaibhav"); 
+
+    for (Entry<Integer, String> e : hp.entrySet()) { 
+        System.out.println(e.getKey() + " "
+                           + e.getValue()); 
+} 
+}
+}

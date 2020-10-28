@@ -1,0 +1,20 @@
+package fileoperations;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+public class demo {
+public static void main(String[] args) {
+try {
+	FileOutputStream fis=new FileOutputStream("/home/smitha/Desktop/israr\\input.txt");
+String s="ksbdgfj";
+byte b[]=s.getBytes();
+fis.write(b);
+fis.close();
+}
+catch(Exception e) {
+	System.out.println(e);
+}
+	
+}
+}

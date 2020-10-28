@@ -1,0 +1,9 @@
+package maps;
+import java.util.*;
+
+public class treemap {
+public static void main(String[] args) {
+TreeMap<Integer,String> t=new TreeMap<>();
+
+}
+}
